@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,12 @@
     <script src="https://kit.fontawesome.com/de3ebebfa2.js" crossorigin="anonymous"></script>
     <title>Staybnb - House Details</title>
 </head>
+
 <body>
     <nav id="navBar" class="navbar-white">
         <a href="/index.html"><img src="images/logo-red.png" class="logo"></a>
         <ul class="nav-links">
-            <li><a href="/listing.html"  class="active">Popular Places</a></li>
+            <li><a href="/listing.html" class="active">Popular Places</a></li>
             <li><a href="#">Travel Outside</a></li>
             <li><a href="#">Online Packages</a></li>
         </ul>
@@ -37,11 +39,11 @@
             </div>
         </div>
         <div class="gallery">
-           <div class="gallery-img-1"><img src="images/house-1.png"></div> 
-           <div><img src="images/house-2.png"></div> 
-           <div><img src="images/house-3.png"></div> 
-           <div><img src="images/house-4.png"></div> 
-           <div><img src="images/house-5.png"></div> 
+            <div class="gallery-img-1"><img src="images/house-1.png"></div>
+            <div><img src="images/house-2.png"></div>
+            <div><img src="images/house-3.png"></div>
+            <div><img src="images/house-4.png"></div>
+            <div><img src="images/house-5.png"></div>
         </div>
         <div class="small-details">
             <h2>Entire rental unit hosted by Brandon</h2>
@@ -65,19 +67,69 @@
             <button type="submit">Check Availability</button>
         </form>
         <ul class="details-list">
-            <li>Entire house
+            <li><i class="fas fa-home"></i>Entire house
                 <span>You will have the entire flat for you</span>
             </li>
-            <li>Enhanced Clean
+            <li><i class="fas fa-paint-brush"></i>Enhanced Clean
                 <span>This host has committed to staybnb's cleaning process</span>
             </li>
-            <li>Greate Location
+            <li><i class="fas fa-map-marker-alt"></i>Greate Location
                 <span>%90 of recent guest gave the location a 5 star rating</span>
             </li>
-            <li>Great Check-in Experience
+            <li><i class="fas fa-heart"></i>Great Check-in Experience
                 <span>100% of recent guests gave the check-in process a 5 star rating</span>
             </li>
         </ul>
+        <hr class="line">
+        <p class="home-desc">Guest will be allocated on the ground floor according to availability. You get a
+            comfortable two bedroom apartment has a true city feeling. The price quoted
+            is for one guest only. It is centrally located on a quiet street, just 5 mints walk from the nearest MRT
+            station. Enjoy a gourmet kitchen, and easy access to all major subway lines!</p>
+        </p>
+        <hr class="line">
+        <div class="map">
+            <h3>Location on Map</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d521.5599253930749!2d27.1504336810254!3d38.42233241727095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd8624ecc96fd%3A0x1f6c6e5ea459ad31!2zxLB6bWlyIELDvHnDvGvFn2VoaXIgQmVsZWRpeWVzaSBCaWxnaSDEsMWfbGVtIERhaXJlIEJhxZ9rYW5sxLHEn8SxIE_En3V6bGFyIEVrIEhpem1ldCBCaW5hc8Sx!5e0!3m2!1str!2str!4v1695018081764!5m2!1str!2str"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <b>Konak, İzmir, Türkiye</b>
+                <p>It's like a home away from home</p>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <img src="images/host.png">
+            <div>
+                <h2>Hosted by Brandon</h2>
+                <p><span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star"></i>
+                </span>&nbsp; &nbsp; 245 reviews &nbsp; &nbsp; Response rate 100% &nbsp;&nbsp; Response time: 60 min</p>
+            </div>
+        </div>
+        <a href="#" class="contact-host">Contact-Host</a>
     </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright &#169; 2023, Ufuk Cem Delice</p>
+            <br>
+        </div>
+    </div>
+    <script>
+        var navBar = document.getElementById("navBar");
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
 </body>
+
 </html>

@@ -25,9 +25,11 @@
             <p>200+ Options</p>
             <h1>Recommended Places In San Francisco</h1>
             <div class="house">
+                <a href="/house.html">
                 <div class="house-img">
                     <img src="images/image-s1.png">
                 </div>
+                </a>
                 <div class="house-info">
                     <p>Private Villa in San Francisco</p>
                     <h3>Deluxe Queen Room With Street View</h3>
@@ -44,9 +46,10 @@
                 </div>
             </div>
             <div class="house">
+                <a href="/house.html">
                 <div class="house-img">
                     <img src="images/image-s2.png">
-                </div>
+                </div></a>
                 <div class="house-info">
                     <p>Private Villa in San Francisco</p>
                     <h3>Deluxe Queen Room With Street View</h3>
@@ -63,9 +66,10 @@
                 </div>
             </div>
             <div class="house">
+                <a href="/house.html">
                 <div class="house-img">
                     <img src="images/image-s3.png">
-                </div>
+                </div></a>
                 <div class="house-info">
                     <p>Private Villa in San Francisco</p>
                     <h3>Deluxe Queen Room With Street View</h3>
@@ -82,9 +86,10 @@
                 </div>
             </div>
             <div class="house">
+                <a href="/house.html">
                 <div class="house-img">
                     <img src="images/image-s4.png">
-                </div>
+                </div></a>
                 <div class="house-info">
                     <p>Private Villa in San Francisco</p>
                     <h3>Deluxe Queen Room With Street View</h3>
@@ -101,9 +106,10 @@
                 </div>
             </div>
             <div class="house">
+                <a href="/house.html">
                 <div class="house-img">
                     <img src="images/image-s5.png">
-                </div>
+                </div></a>
                 <div class="house-info">
                     <p>Private Villa in San Francisco</p>
                     <h3>Deluxe Queen Room With Street View</h3>
@@ -120,9 +126,10 @@
                 </div>
             </div>
             <div class="house">
+                <a href="/house.html">
                 <div class="house-img">
                     <img src="images/image-s6.png">
-                </div>
+                </div></a>
                 <div class="house-info">
                     <p>Private Villa in San Francisco</p>
                     <h3>Deluxe Queen Room With Street View</h3>
@@ -143,6 +150,7 @@
             <div class="sidebar">
                 <h2>Select Filters</h2>
                 <h3>Property Type</h3>
+                <i class="fa-light fa-filter" onclick="filter()"></i>
                 <div class="filter">
                     <input type="checkbox"><p>House</p> <span>(0)</span>
                 </div>
@@ -206,6 +214,10 @@
         var navBar = document.getElementById("navBar");
         function togglebtn(){
             navBar.classList.toggle("hidemenu");
+        }
+        var sideBar = document.querySelector(".sidebar");
+        function filter(){
+            sideBar.classList.toggle("hidemenu");
         }
     </script>
 </body>
